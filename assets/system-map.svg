@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="330" viewBox="0 0 1400 330" role="img" aria-labelledby="title desc">
+<title id="title">Selected Systems</title>
+<desc id="desc">Network map of Krish Mehan's selected technical systems.</desc>
+<defs>
+  <filter id="g"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .n{font-size:18px;font-weight:700}
+    .t{font-size:11px;letter-spacing:2px}
+    .pulse{animation:p 4s ease-in-out infinite}
+    @keyframes p{0%,100%{opacity:.55}50%{opacity:1}}
+  </style>
+</defs>
+<rect width="1400" height="330" rx="16" fill="#030303"/>
+<path d="M700 165L250 75M700 165L250 255M700 165L520 55M700 165L880 55M700 165L1150 75M700 165L1150 255M700 165L880 275" stroke="#591018" stroke-width="1"/>
+<circle cx="700" cy="165" r="76" fill="#080808" stroke="#d63442" stroke-width="1.5"/>
+<circle cx="700" cy="165" r="52" fill="none" stroke="#7d1822"/>
+<text x="700" y="155" text-anchor="middle" class="m n" fill="#ef4a58">KRISH</text>
+<text x="700" y="181" text-anchor="middle" class="m t" fill="#a32a34">SYSTEMS</text>
+<text x="700" y="204" text-anchor="middle" class="m" font-size="9" letter-spacing="2" fill="#6f2027">MODEL / SIMULATE / ACT</text>
+
+<g class="m">
+  <g transform="translate(120 40)">
+    <rect width="260" height="70" rx="8" fill="#080808" stroke="#71151e"/>
+    <circle cx="18" cy="18" r="4" fill="#e43f4d" class="pulse"/>
+    <text x="34" y="25" class="n" fill="#df4451">INCEPTICO</text>
+    <text x="34" y="48" class="t" fill="#7d3036">BUSINESS SIMULATION</text>
+  </g>
+  <g transform="translate(120 220)">
+    <rect width="260" height="70" rx="8" fill="#080808" stroke="#71151e"/>
+    <circle cx="18" cy="18" r="4" fill="#e43f4d" class="pulse"/>
+    <text x="34" y="25" class="n" fill="#df4451">NEUROSCAN</text>
+    <text x="34" y="48" class="t" fill="#7d3036">MEDICAL VISION</text>
+  </g>
+  <g transform="translate(390 20)">
+    <rect width="260" height="70" rx="8" fill="#080808" stroke="#71151e"/>
+    <circle cx="18" cy="18" r="4" fill="#e43f4d" class="pulse"/>
+    <text x="34" y="25" class="n" fill="#df4451">COLONYGUARD</text>
+    <text x="34" y="48" class="t" fill="#7d3036">TEMPORAL ML</text>
+  </g>
+  <g transform="translate(750 20)">
+    <rect width="260" height="70" rx="8" fill="#080808" stroke="#71151e"/>
+    <circle cx="18" cy="18" r="4" fill="#e43f4d" class="pulse"/>
+    <text x="34" y="25" class="n" fill="#df4451">RESQNETOS</text>
+    <text x="34" y="48" class="t" fill="#7d3036">AUTONOMOUS SWARMS</text>
+  </g>
+  <g transform="translate(1020 40)">
+    <rect width="260" height="70" rx="8" fill="#080808" stroke="#71151e"/>
+    <circle cx="18" cy="18" r="4" fill="#e43f4d" class="pulse"/>
+    <text x="34" y="25" class="n" fill="#df4451">ALPHAFORGE</text>
+    <text x="34" y="48" class="t" fill="#7d3036">QUANT RESEARCH</text>
+  </g>
+  <g transform="translate(1020 220)">
+    <rect width="260" height="70" rx="8" fill="#080808" stroke="#71151e"/>
+    <circle cx="18" cy="18" r="4" fill="#e43f4d" class="pulse"/>
+    <text x="34" y="25" class="n" fill="#df4451">SATQUERY</text>
+    <text x="34" y="48" class="t" fill="#7d3036">VISION-LANGUAGE</text>
+  </g>
+  <g transform="translate(750 240)">
+    <rect width="260" height="70" rx="8" fill="#080808" stroke="#71151e"/>
+    <circle cx="18" cy="18" r="4" fill="#e43f4d" class="pulse"/>
+    <text x="34" y="25" class="n" fill="#df4451">BATTERY SENTINEL</text>
+    <text x="34" y="48" class="t" fill="#7d3036">EDGE AI / TELEMETRY</text>
+  </g>
+</g>
+</svg>
