@@ -1,112 +1,88 @@
-# Krish Mehan
+<p align="center">
+  <img src="./assets/krish-hero.svg" width="100%" alt="Krish Mehan — GitHub profile hero" />
+</p>
 
-### I build systems that reason, simulate, and act under uncertainty.
+<p align="center">
+  <a href="https://www.linkedin.com/in/krishmehan"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Krish%20Mehan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:krishmehan24@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-krishmehan24%40gmail.com-101828?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <img alt="Location" src="https://img.shields.io/badge/India-Mumbai%20%2F%20Chennai-111827?style=for-the-badge&logo=googlemaps&logoColor=white">
+</p>
 
-Founder building **Erchomai** · Research Consultant at **WorldQuant** · B.Tech CSE (AI & ML), VIT Chennai
+```text
+$ whoami
+Krish Mehan
 
-My work sits at the intersection of **agentic AI, autonomous systems, quantitative research, simulation, and applied machine intelligence**. I am most interested in systems that have to do more than classify an input — they have to model a changing environment, make decisions under constraints, and remain useful when reality gets messy.
+$ mission
+Build systems that reason, simulate, and act under uncertainty.
 
----
+$ current_focus
+Founder @ Erchomai
+Research Consultant @ WorldQuant
+Applied AI · Quant Research · Autonomous Systems · Simulation
+```
 
-## Selected systems
+## // selected systems
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### [Inceptico](https://github.com/Mr-McSizzle/studio)
-**AI-powered business simulation and decision-support platform.**
-
-The main Inceptico codebase combines a simulation engine, specialist AI-agent flows, structured application state, Firebase-backed services, and a full product interface for exploring business decisions inside synthetic scenarios.
-
-Next.js · TypeScript · Agentic AI · Simulation · Firebase · Genkit
-
----
+**AI-powered business simulation and decision-support platform**
+- simulation engine + specialist AI-agent flows
+- structured business state + scenario analysis
+- full product interface + Firebase-backed services
 
 ### [Autonomous Battery Sentinel](https://github.com/Mr-McSizzle/Autonomous-Battery-Sentinel)
-**Simulation-first AI telemetry and fault-analysis pipeline for Formula SAE vehicle systems.**
-
-CAN-style telemetry, anomaly detection, Kalman filtering, degradation forecasting, model optimization, edge-deployment experiments, and VCU-facing control architecture.
-
-Python · PyTorch · Edge AI · Time Series · ROS 2 · CAN
-
----
+**Simulation-first AI telemetry and fault-analysis pipeline**
+- CAN telemetry → anomaly detection → degradation forecasting
+- edge-deployment experiments + VCU-facing logic
+- safety-aware control architecture
 
 ### [NeuroScan Edge](https://github.com/Mr-McSizzle/radiology-triage)
-**Experimental AI decision-support pipeline for chest X-ray analysis and triage workflows.**
+**Experimental AI decision-support pipeline for chest X-rays**
+- dual-model reasoning, Grad-CAM, TTA, triage layer
+- evaluation-first presentation, not fake medical hype
 
-Model ensembles, test-time augmentation, Grad-CAM, input validation, evaluation tooling, and a FastAPI application layer built around imperfect-model decision support.
-
-PyTorch · FastAPI · Computer Vision · Grad-CAM · Model Evaluation
-
----
+</td>
+<td width="50%" valign="top">
 
 ### [ColonyGuard](https://github.com/Mr-McSizzle/colonyguard)
-**Temporal ML system for monitoring iPSC colony morphology and instability signals.**
-
-Feature engineering over morphology and texture, longitudinal modeling experiments, a learned instability target, and a web interface for exploring model outputs.
-
-AI/ML · Time Series · Computer Vision · Biomedical AI
-
----
+**Temporal ML system for iPSC colony instability monitoring**
+- morphology + texture features
+- longitudinal modeling and instability scoring
+- interface snapshots and analysis workflows
 
 ### [ResQNetOS](https://github.com/Mr-McSizzle/resqnetOS)
-**Simulation-first infrastructure for resilient autonomous drone-swarm missions.**
-
-Explores multi-drone coordination, mission abstraction, degraded-connectivity operation, and reusable swarm applications using PX4, ROS 2, and Gazebo.
-
-ROS 2 · PX4 · Gazebo · Autonomous Systems · Distributed Control
-
----
+**Resilient autonomous drone-swarm mission infrastructure**
+- PX4 + ROS 2 + Gazebo
+- modular mission logic + degraded-connectivity thinking
 
 ### [AlphaForge](https://github.com/Mr-McSizzle/AlphaForge)
-**Quantitative strategy research and backtesting infrastructure.**
+**Quantitative strategy research and backtesting infrastructure**
+- research workflow + reproducible experiments
+- transaction-cost-aware backtesting + comparison tooling
 
-A reproducible environment for strategy expression, historical simulation, transaction-cost-aware backtesting, experiment persistence, and comparative analysis.
+</td>
+</tr>
+</table>
 
-Python · FastAPI · PostgreSQL · Redis · Quant Research · Docker
+## // additional explorations
 
----
+- [SatQuery AI](https://github.com/Mr-McSizzle/satellite-ai) — agentic vision-language workspace for remote-sensing imagery  
+- [SatQuery VLM](https://github.com/Mr-McSizzle/vlm) — multimodal reasoning / LoRA / structured evidence experiments  
+- [SanctuaryOS](https://github.com/Mr-McSizzle/sanctuaryOS) — smart-environment command center and automation system  
+- [RupeeForge](https://github.com/Mr-McSizzle/rupee-forge) — e-Rupee / UPI / offline-pay fintech prototype  
+- [Pluto](https://github.com/Mr-McSizzle/Pluto) — experimental CBDC application architecture  
 
-### [SatQuery AI](https://github.com/Mr-McSizzle/satellite-ai)
-**Agentic vision-language workspace for reasoning over remote-sensing imagery.**
+## // research interests
 
-Separates backend ingestion, controller/orchestration, multimodal reasoning, and frontend interaction into a system for higher-level querying of satellite imagery.
+`agentic systems` · `decision intelligence` · `simulation` · `autonomous systems` · `quant research` · `time-series ML` · `multimodal AI`
 
-VLMs · Remote Sensing · Agentic AI · Geospatial · Systems Design
+## // profile signal
 
----
+The systems here may look different on the surface — markets, batteries, radiology, cell cultures, drone swarms, business simulation, remote sensing — but they keep circling the same question:
 
-## Other explorations
+> **How do you build intelligence that can observe a changing system, model it, test decisions, and stay useful when the real world gets messy?**
 
-- [SatQuery VLM](https://github.com/Mr-McSizzle/vlm) — LLaVA-based VLM module, LoRA evaluation, structured evidence injection, fallback routing.
-- [SanctuaryOS](https://github.com/Mr-McSizzle/sanctuaryOS) — experimental smart-environment command center with voice control, automation state, live-feed tooling, and system diagnostics.
-- [RupeeForge](https://github.com/Mr-McSizzle/rupee-forge) — Flutter prototype exploring e-Rupee / UPI-style wallet flows, offline NFC payment concepts, and transaction-state management.
-- [Pluto](https://github.com/Mr-McSizzle/Pluto) — experimental CBDC application concept built around programmable payment workflows, offline operation, and financial-state interfaces.
-
----
-
-## What I keep coming back to
-
-**Observe → model → simulate → predict → verify → act.**
-
-That pattern shows up repeatedly in the systems I build — whether the environment is a market, a battery pack, a biological culture, an X-ray, a drone swarm, a smart environment, or a satellite image.
-
-I am currently applying that way of thinking to **Erchomai**, an applied AI company focused on decision systems for complex real-world domains.
-
----
-
-## Research interests
-
-- Agentic systems and verification
-- Decision intelligence under hard constraints
-- Quantitative research and market simulation
-- Autonomous and distributed systems
-- Multimodal / vision-language models
-- Time-series modeling
-- Digital twins and synthetic environments
-
----
-
-## Elsewhere
-
-- [LinkedIn](https://www.linkedin.com/in/krishmehan)
-- [Email](mailto:krishmehan24@gmail.com)
-
-<sub>Mumbai / Chennai, India · Building from India for global markets.</sub>
+That question is at the core of how I build.
