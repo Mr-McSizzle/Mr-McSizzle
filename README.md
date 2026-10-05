@@ -4,43 +4,43 @@
 
 Founder building **Erchomai** · Research Consultant at **WorldQuant** · B.Tech CSE (AI & ML), VIT Chennai
 
-My work sits at the intersection of **agentic AI, autonomous systems, quantitative research, simulation, and applied machine intelligence**. I like problems where software has to do more than classify something — it has to understand a system, model uncertainty, make a decision, and survive contact with the real world.
+My work sits at the intersection of **agentic AI, autonomous systems, quantitative research, simulation, and applied machine intelligence**. I am most interested in systems that have to do more than classify an input — they have to model a changing environment, make decisions under constraints, and remain useful when reality gets messy.
 
 ---
 
 ## Selected systems
 
 ### [Autonomous Battery Sentinel](https://github.com/Mr-McSizzle/Autonomous-Battery-Sentinel)
-**Edge AI for Formula SAE battery telemetry, anomaly detection, degradation forecasting, and fail-safe control.**
+**Simulation-first AI telemetry and fault-analysis pipeline for Formula SAE vehicle systems.**
 
-Built as an end-to-end pipeline around CAN telemetry, ensemble anomaly detection, Kalman filtering, physics-informed degradation forecasting, model optimization, and VCU-side safety logic.
+CAN-style telemetry, anomaly detection, Kalman filtering, degradation forecasting, model optimization, edge-deployment experiments, and VCU-facing control architecture.
 
-Python · PyTorch · Edge AI · Time Series · ROS2 · CAN
+Python · PyTorch · Edge AI · Time Series · ROS 2 · CAN
 
 ---
 
 ### [NeuroScan Edge](https://github.com/Mr-McSizzle/radiology-triage)
-**Experimental AI decision-support system for chest X-ray analysis and clinical triage.**
+**Experimental AI decision-support pipeline for chest X-ray analysis and triage workflows.**
 
-Combines a dual-model vision ensemble, test-time augmentation, Grad-CAM explainability, input validation, and a clinical reasoning layer for prioritization and risk-aware case handling.
+Model ensembles, test-time augmentation, Grad-CAM, input validation, evaluation tooling, and a FastAPI application layer built around imperfect-model decision support.
 
-PyTorch · FastAPI · Computer Vision · Grad-CAM · Model Ensembles
+PyTorch · FastAPI · Computer Vision · Grad-CAM · Model Evaluation
 
 ---
 
 ### [ColonyGuard](https://github.com/Mr-McSizzle/colonyguard)
-**Temporal instability detection for iPSC stem-cell culture monitoring.**
+**Temporal ML system for monitoring iPSC colony morphology and instability signals.**
 
-A machine-learning system built around morphology-derived signals and longitudinal patterns to surface early warning signals before visible culture failure.
+Feature engineering over morphology and texture, longitudinal modeling experiments, a learned instability target, and a web interface for exploring model outputs.
 
 AI/ML · Time Series · Computer Vision · Biomedical AI
 
 ---
 
 ### [ResQNetOS](https://github.com/Mr-McSizzle/resqnetOS)
-**Simulation-first operating infrastructure for resilient autonomous drone swarms.**
+**Simulation-first infrastructure for resilient autonomous drone-swarm missions.**
 
-Explores multi-drone coordination, mission abstraction, degraded-connectivity operation, and extensible swarm applications using PX4, ROS 2, and Gazebo.
+Explores multi-drone coordination, mission abstraction, degraded-connectivity operation, and reusable swarm applications using PX4, ROS 2, and Gazebo.
 
 ROS 2 · PX4 · Gazebo · Autonomous Systems · Distributed Control
 
@@ -49,18 +49,28 @@ ROS 2 · PX4 · Gazebo · Autonomous Systems · Distributed Control
 ### [AlphaForge](https://github.com/Mr-McSizzle/AlphaForge)
 **Quantitative strategy research and backtesting infrastructure.**
 
-A reproducible environment for strategy expression, historical simulation, transaction-cost-aware backtesting, analytics, and experiment comparison.
+A reproducible environment for strategy expression, historical simulation, transaction-cost-aware backtesting, experiment persistence, and comparative analysis.
 
-Python · FastAPI · Quant Research · Backtesting · Docker
+Python · FastAPI · PostgreSQL · Redis · Quant Research · Docker
 
 ---
 
 ### [SatQuery AI](https://github.com/Mr-McSizzle/satellite-ai)
-**Agentic vision-language assistant for remote-sensing imagery.**
+**Agentic vision-language workspace for reasoning over remote-sensing imagery.**
 
-Explores multimodal reasoning over satellite imagery with an agent-oriented workflow for geospatial interpretation and analysis.
+Separates backend ingestion, controller/orchestration, multimodal reasoning, and frontend interaction into a system for higher-level querying of satellite imagery.
 
-VLMs · Remote Sensing · Agentic AI · Geospatial
+VLMs · Remote Sensing · Agentic AI · Geospatial · Systems Design
+
+---
+
+## Other explorations
+
+- [SatQuery VLM](https://github.com/Mr-McSizzle/vlm) — LLaVA-based VLM module, LoRA evaluation, structured evidence injection, fallback routing.
+- [SanctuaryOS](https://github.com/Mr-McSizzle/sanctuaryOS) — experimental smart-environment command center with voice control, automation state, live-feed tooling, and system diagnostics.
+- [RupeeForge](https://github.com/Mr-McSizzle/rupee-forge) — Flutter prototype exploring e-Rupee / UPI-style wallet flows, offline NFC payment concepts, and transaction-state management.
+- [Pluto](https://github.com/Mr-McSizzle/Pluto) — experimental CBDC application concept built around programmable payment workflows, offline operation, and financial-state interfaces.
+- [Inceptico](https://github.com/Mr-McSizzle/inceptico) — AI business-simulation / digital-twin concept with specialist-agent orchestration and scenario analysis.
 
 ---
 
@@ -68,7 +78,7 @@ VLMs · Remote Sensing · Agentic AI · Geospatial
 
 **Observe → model → simulate → predict → verify → act.**
 
-That pattern shows up repeatedly in the systems I build — whether the environment is a market, a battery pack, a biological culture, an X-ray, a drone swarm, or a satellite image.
+That pattern shows up repeatedly in the systems I build — whether the environment is a market, a battery pack, a biological culture, an X-ray, a drone swarm, a smart environment, or a satellite image.
 
 I am currently applying that way of thinking to **Erchomai**, an applied AI company focused on decision systems for complex real-world domains.
 
