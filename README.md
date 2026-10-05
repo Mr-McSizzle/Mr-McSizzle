@@ -10,6 +10,15 @@ My work sits at the intersection of **agentic AI, autonomous systems, quantitati
 
 ## Selected systems
 
+### [Inceptico](https://github.com/Mr-McSizzle/studio)
+**AI-powered business simulation and decision-support platform.**
+
+The main Inceptico codebase combines a simulation engine, specialist AI-agent flows, structured application state, Firebase-backed services, and a full product interface for exploring business decisions inside synthetic scenarios.
+
+Next.js · TypeScript · Agentic AI · Simulation · Firebase · Genkit
+
+---
+
 ### [Autonomous Battery Sentinel](https://github.com/Mr-McSizzle/Autonomous-Battery-Sentinel)
 **Simulation-first AI telemetry and fault-analysis pipeline for Formula SAE vehicle systems.**
 
@@ -70,7 +79,6 @@ VLMs · Remote Sensing · Agentic AI · Geospatial · Systems Design
 - [SanctuaryOS](https://github.com/Mr-McSizzle/sanctuaryOS) — experimental smart-environment command center with voice control, automation state, live-feed tooling, and system diagnostics.
 - [RupeeForge](https://github.com/Mr-McSizzle/rupee-forge) — Flutter prototype exploring e-Rupee / UPI-style wallet flows, offline NFC payment concepts, and transaction-state management.
 - [Pluto](https://github.com/Mr-McSizzle/Pluto) — experimental CBDC application concept built around programmable payment workflows, offline operation, and financial-state interfaces.
-- [Inceptico](https://github.com/Mr-McSizzle/studio) — main AI business-simulation / digital-twin codebase with specialist-agent orchestration and scenario analysis.
 
 ---
 
