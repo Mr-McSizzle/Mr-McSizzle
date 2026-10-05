@@ -1,1 +1,105 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Krish Mehan GitHub Hero</title>
+  <desc id="desc">Animated dark technical hero banner for a GitHub profile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.5" stop-color="#0C1126"/>
+      <stop offset="1" stop-color="#060A18"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="130" y1="88" x2="940" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#68E1FD"/>
+      <stop offset="0.45" stop-color="#8A7DFF"/>
+      <stop offset="1" stop-color="#00E7A9"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="380" y2="0">
+      <stop offset="0" stop-color="#68E1FD" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#68E1FD" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#68E1FD" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#8AA4FF" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+      .sans { font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .tiny { font-size: 13px; letter-spacing: 0.22em; }
+      .body { font-size: 18px; }
+      .title { font-size: 56px; font-weight: 800; letter-spacing: 0.06em; }
+      .chip { font-size: 14px; font-weight: 650; }
+      .faint { opacity: 0.62; }
+      .pulse { animation: pulse 3.6s ease-in-out infinite; transform-origin: center; }
+      .beam { animation: sweep 6s linear infinite; }
+      .floatA { animation: driftA 14s ease-in-out infinite; }
+      .floatB { animation: driftB 11s ease-in-out infinite; }
+      .reveal { animation: reveal 1.1s ease-out both; }
+      .reveal2 { animation: reveal 1.25s ease-out both; animation-delay: 0.08s; }
+      .reveal3 { animation: reveal 1.4s ease-out both; animation-delay: 0.14s; }
+      @keyframes pulse { 0%,100% { opacity: .72; } 50% { opacity: 1; } }
+      @keyframes sweep { 0% { transform: translateX(-460px); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(1280px); opacity: 0; } }
+      @keyframes driftA { 0%,100% { transform: translate(0px,0px); } 50% { transform: translate(10px,-8px); } }
+      @keyframes driftB { 0%,100% { transform: translate(0px,0px); } 50% { transform: translate(-12px,10px); } }
+      @keyframes reveal { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0px); } }
+    </style>
+  </defs>
 
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+
+  <g class="floatA">
+    <circle cx="1010" cy="92" r="86" fill="#7B5CFF" fill-opacity="0.08"/>
+    <circle cx="1010" cy="92" r="52" fill="#68E1FD" fill-opacity="0.06"/>
+  </g>
+  <g class="floatB">
+    <circle cx="1120" cy="292" r="94" fill="#00E7A9" fill-opacity="0.08"/>
+    <circle cx="920" cy="280" r="58" fill="#68E1FD" fill-opacity="0.05"/>
+  </g>
+
+  <rect x="42" y="40" width="1116" height="280" rx="20" fill="#0A1021" fill-opacity="0.72" stroke="#7C94FF" stroke-opacity="0.18"/>
+  <rect x="42" y="40" width="1116" height="44" rx="20" fill="#0E1631" fill-opacity="0.9"/>
+  <circle cx="74" cy="62" r="5" fill="#FF6B6B"/>
+  <circle cx="92" cy="62" r="5" fill="#FFD166"/>
+  <circle cx="110" cy="62" r="5" fill="#00E7A9"/>
+  <text x="136" y="67" class="mono tiny faint">/profile/krish-mehan :: system_identity</text>
+
+  <g class="beam" opacity="0.8">
+    <rect x="-460" y="84" width="380" height="2" fill="url(#beam)"/>
+  </g>
+
+  <text x="78" y="122" class="mono tiny reveal">FOUNDER · APPLIED AI · QUANT · AUTONOMOUS SYSTEMS</text>
+  <text x="78" y="186" class="sans title reveal2" fill="url(#accent)">KRISH MEHAN</text>
+  <text x="80" y="224" class="sans body reveal3" fill="#E8EEFF">Building systems that reason, simulate, and act under uncertainty.</text>
+
+  <g class="reveal3">
+    <rect x="78" y="248" width="236" height="34" rx="17" fill="#111B37" stroke="#68E1FD" stroke-opacity="0.25"/>
+    <text x="98" y="270" class="sans chip" fill="#DCE8FF">Founder @ Erchomai</text>
+
+    <rect x="328" y="248" width="250" height="34" rx="17" fill="#111B37" stroke="#8A7DFF" stroke-opacity="0.28"/>
+    <text x="348" y="270" class="sans chip" fill="#DCE8FF">Research Consultant @ WorldQuant</text>
+
+    <rect x="594" y="248" width="178" height="34" rx="17" fill="#111B37" stroke="#00E7A9" stroke-opacity="0.28"/>
+    <text x="614" y="270" class="sans chip" fill="#DCE8FF">VIT Chennai</text>
+  </g>
+
+  <g transform="translate(790 106)" class="pulse">
+    <rect x="0" y="0" width="312" height="154" rx="18" fill="#09101F" stroke="#68E1FD" stroke-opacity="0.18"/>
+    <text x="22" y="29" class="mono tiny" fill="#84C8FF">SYSTEM SIGNAL</text>
+    <text x="22" y="58" class="sans chip" fill="#F0F5FF">observe → model → simulate → decide</text>
+    <g opacity="0.95">
+      <rect x="22" y="76" width="270" height="10" rx="5" fill="#10182E"/>
+      <rect x="22" y="76" width="230" height="10" rx="5" fill="url(#accent)"/>
+      <rect x="22" y="100" width="270" height="10" rx="5" fill="#10182E"/>
+      <rect x="22" y="100" width="182" height="10" rx="5" fill="#68E1FD"/>
+      <rect x="22" y="124" width="270" height="10" rx="5" fill="#10182E"/>
+      <rect x="22" y="124" width="208" height="10" rx="5" fill="#00E7A9"/>
+    </g>
+    <text x="22" y="151" class="mono" font-size="12" fill="#A6B7E7">focus: decision systems / simulation / autonomy / markets</text>
+  </g>
+</svg>
