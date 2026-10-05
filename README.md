@@ -70,7 +70,7 @@ VLMs · Remote Sensing · Agentic AI · Geospatial · Systems Design
 - [SanctuaryOS](https://github.com/Mr-McSizzle/sanctuaryOS) — experimental smart-environment command center with voice control, automation state, live-feed tooling, and system diagnostics.
 - [RupeeForge](https://github.com/Mr-McSizzle/rupee-forge) — Flutter prototype exploring e-Rupee / UPI-style wallet flows, offline NFC payment concepts, and transaction-state management.
 - [Pluto](https://github.com/Mr-McSizzle/Pluto) — experimental CBDC application concept built around programmable payment workflows, offline operation, and financial-state interfaces.
-- [Inceptico](https://github.com/Mr-McSizzle/inceptico) — AI business-simulation / digital-twin concept with specialist-agent orchestration and scenario analysis.
+- [Inceptico](https://github.com/Mr-McSizzle/studio) — main AI business-simulation / digital-twin codebase with specialist-agent orchestration and scenario analysis.
 
 ---
 
